@@ -34,9 +34,7 @@ gcov_report:
 	open ./report/index.html
 
 style:
-	cp ../materials/linters/.clang-format .
-	clang-format -n  *.c *.h unit_tests/unit_tests.c
-	rm .clang-format
+	clang-format -style=google -n  *.c *.h unit_tests/unit_tests.c
 
 clean:
 	@-rm Report/report.* object_files/*.* *.a *.html *.info Report/* test
