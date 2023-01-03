@@ -1,0 +1,3 @@
+/Users/timur/github/matrix/cmake-build-debug/CMakeFiles/matrix.dir
+/Users/timur/github/matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/timur/github/matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

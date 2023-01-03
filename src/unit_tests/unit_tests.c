@@ -574,7 +574,8 @@ int main() {
   tcase_add_test(s21_test, inverse_matrix_calulation);
 
   srunner_run_all(sr, CK_VERBOSE);
+  int errors = srunner_ntests_failed(sr);
   srunner_free(sr);
 
-  return 0;
+  return errors == 0 ? 0 : 1;
 }
